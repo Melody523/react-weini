@@ -1,0 +1,48 @@
+.goods-list-nav-bar{
+  box-shadow: 0 0 2px #ddd;
+  background-color: #fff;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  .left{
+    width: 50px;
+  }
+  .back-icon{
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+  }
+  .center{
+    position: relative;
+    flex: 1;
+    .search-icon{
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      left: 4%;
+      top: 50%;
+      transform: translate(0, -50%);
+      z-index: 2;
+    }
+    .search-input{
+      height: 30px;
+      width: 95%;
+      border-radius: 30px;
+      border: 0 none;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #f4f4f4;
+      padding-left: 35px;
+    }
+  }
+  .title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    flex: 1;
+  }
+}

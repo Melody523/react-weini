@@ -1,0 +1,47 @@
+.home-nav-bar{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  .center{
+    position: relative;
+    height: 44px;
+    flex: 1;
+    .search-icon{
+      width: 25px;
+      height: 25px;
+      position: absolute;
+      left: 4%;
+      top: 50%;
+      transform: translate(0, -50%);
+      z-index: 2;
+    }
+    .search-input{
+      height: 30px;
+      width: 100%;
+      border-radius: 30px;
+      border: 0 none;
+      position: absolute;
+      left: 52%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding-left: 35px;
+    }
+  }
+  .right{
+    height: 44px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .message-icon{
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      margin-top: 2px;
+    }
+  }
+}

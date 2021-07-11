@@ -1,0 +1,70 @@
+//FromAddress.less
+.from-address{
+  position: relative;
+  height: 100vh;
+  z-index: 2;
+  background-color: #f8f9fc;
+  .from-address-content{
+    overflow-y: hidden;
+    position: absolute;
+    top: 44px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+//AddAddress.less
+.add-address{
+  position: relative;
+  height: 100vh;
+  z-index: 2;
+  background-color: #f8f9fc;
+  .add-address-content{
+    overflow-y: hidden;
+    position: absolute;
+    top: 44px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .add-content{
+      .add-item{
+        display: flex;
+        justify-content: space-between;
+        color: #000;
+        font-size: 14px;
+        padding: 11px 19px;
+        margin-top: 10px;
+        background-color: #fff;
+        .add-input{
+          border: 0 none;
+        }
+        .select{
+          border: 0 none;
+          appearance: none;
+          background: #fff;
+          .option{
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+          }
+        }
+        .detail-address{
+          height: 14px;
+          border: 0 none;
+          height: 46px;
+          width: 100%;
+        }
+        .selected{
+          width: 20px;
+          height: 20px;
+          vertical-align: middle;
+          margin-right: 5px;
+        }
+        .title{
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

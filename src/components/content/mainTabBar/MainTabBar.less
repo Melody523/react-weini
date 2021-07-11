@@ -1,0 +1,33 @@
+.main-tab-bar{
+  width: 100%;
+  color: #a9a9a9;
+  height: 49px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  box-shadow: 0 0 2px #ddd;
+  background-color: #fff;
+  .tab-bar-list{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    .tab-bar-item{
+      flex: 1;
+      text-align: center;
+      .tab-bar-icon{
+        width: 22px;
+        height: 22px;
+        margin-top: 3px;
+      }
+      .tab-bar-title{
+        font-size: 13px;
+        line-height: 13px;
+        color: #a9a9a9;
+      }
+      .active-title{
+        color: #f05b1a;
+      }
+    }
+  }
+}

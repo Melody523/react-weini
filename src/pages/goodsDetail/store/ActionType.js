@@ -1,0 +1,15 @@
+export const GOODS_DETAIL = 'category/GOODS_DETAIL';
+export const CART_COUNT = 'category/CART_COUNT';
+export const ADD_CART = 'category/ADD_CART';
+export const DEL_COLLECT = 'category/DEL_COLLECT';
+export const INSERT_COLLECT = 'category/INSERT_COLLECT';
+export const ADD_NOTIFY = 'category/ADD_NOTIFY';
+export const POST_RULE = 'category/POST_RULE';
+export const SET_GOODS_NO = 'category/SET_GOODS_NO';
+export const CHANGE_INSTRUCTION = 'category/CHANGE_INSTRUCTION';
+export const CHANGE_SHOW_CITY = 'category/CHANGE_SHOW_CITY';
+export const CHANGE_CITY = 'category/CHANGE_CITY';
+export const CHANGE_SKU = 'category/CHANGE_SKU';
+export const CHANGE_SHOW_ADD = 'category/CHANGE_SHOW_ADD';
+export const CHANGE_SHOW_REMIND = 'category/CHANGE_SHOW_REMIND';
+export const CHECK_USER = 'category/CHECK_USER';

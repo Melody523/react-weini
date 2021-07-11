@@ -1,0 +1,28 @@
+.new-goods{
+  position: relative;
+  height: 100vh;
+}
+.new-goods-content{
+  overflow-y: hidden;
+  position: absolute;
+  top: 90px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+/* 可以设置不同的进入和离开动画 */
+/* 设置持续时间和动画函数 */
+.slide-fade-enter-active, .slide-fade-leave-active {
+transition: all .5s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active for below version 2.1.8 */ {
+transform: translateX(100%);
+}
+.no-data-img{
+margin: 100px auto;
+display: block;
+width: 169px;
+height: auto;
+}

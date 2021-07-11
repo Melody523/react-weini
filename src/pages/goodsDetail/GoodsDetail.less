@@ -1,0 +1,64 @@
+.goods-detail{
+  background-color: #f8f9fc;
+  position: relative;
+  height: 100vh;
+  .goods-detail-content{
+    overflow-y: hidden;
+    position: absolute;
+    top: 44px;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #f8f9fc;
+  }
+  .dispatch-container{
+    margin: 10px 0;
+    padding: 0 18px;
+    color: #1a1a1a;
+    font-size: 14px;
+    height: 47px;
+    line-height: 47px;
+    background-color: #fff;
+    position: relative;
+    .dispatch-area{
+      display: inline-block;
+      font-size: 14px;
+      color: #999;
+      width: 70%;
+    }
+    .icon{
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      width: 10px;
+      height: 10px;
+      border-top: 1px solid #333;
+      border-right: 1px solid #333;
+      transform: translate(0, -50%) rotate(45deg);
+    }
+  }
+  // .city-container{
+  //   position: fixed;
+  //   left: 0;
+  //   top: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   z-index: 3;
+  //   height: 100vh;
+  // }
+}
+/* 可以设置不同的进入和离开动画 */
+/* 设置持续时间和动画函数 */
+.slide-fade-enter-active, .slide-fade-leave-active {
+  transition: all .3s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to{
+  transform: translateY(100%);
+}
+.slide-fade-2-enter-active, .slide-fade-2-leave-active {
+  transition: all .3s ease;
+}
+.slide-fade-2-enter, .slide-fade-2-leave-to{
+  transform: translateX(100%);
+}

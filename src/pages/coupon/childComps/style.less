@@ -1,0 +1,101 @@
+//CouponNavBar.less
+.main-nav-bar{
+  box-shadow: 0 0 2px #ddd;
+  background-color: #fff;
+  height: 44px;
+  display: flex;
+  align-items: center;;
+  .left{
+    width: 50px;
+  }
+  .back-icon{
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+  }
+  .title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    flex: 1;
+  }
+  .exchange{
+    width: 50px;
+    font-size: 14px;
+    color: #ff7979;
+  }
+}
+
+//CouponList.less
+.coupon-list{
+  .coupon-list-content{
+    .coupon-item{
+      padding-top: 19px;
+      position: relative;
+      .coupon-item-bg{
+        width: 338px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      .coupon-item-content{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding-top: 19px;
+        .coupon-desc{
+          height: 63px;
+          padding: 0 28px;
+          color: #fff;
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .use-limit{
+            width: 100px;
+            text-align: center;
+            .coupon-tag{
+              font-size: 12px;
+            }
+          }
+        }
+        .time{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 28px 0 30px;
+          height: 25px;
+          p{
+            color: #000;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+//OrderTabBar.less
+.coupon-tab-bar{
+  height: 44px;
+  .nav-list{
+    display: flex;
+    align-items: center;
+    .nav-item{
+      flex: 1;
+      text-align: center;
+      color: #1a1a1a;
+      border-bottom: 2px solid #fff;
+      font-size: 15px;
+      height: 44px;
+      line-height: 44px;
+      margin: 0 5px;
+    }
+    .active{
+      border-bottom: 2px solid #bc4344;
+    }
+  }
+}

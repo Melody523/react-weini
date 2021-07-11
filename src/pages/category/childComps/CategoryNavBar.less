@@ -1,0 +1,41 @@
+.category-nav-bar{
+  box-shadow: 0 0 2px #ddd;
+  display: flex;
+  align-items: center;
+  height: 44px;
+  .back-icon{
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+  }
+  .title{
+    flex: 1;
+    .logo{
+      width: 85px;
+      height: 19px;
+      display: block;
+      margin: auto auto;
+    }
+  }
+  .right{
+    width: 80px;
+    .right-icon{
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+    }
+    .cart-icon{
+      display: inline-block;
+      position: relative;
+      .cart-count{
+        position: absolute;
+        left: 40%;
+        top: 44%;
+        transform: translate(-50%, -50%);
+        color: #9f2e33;
+        font-size: 13px;
+      }
+    }
+  }
+}

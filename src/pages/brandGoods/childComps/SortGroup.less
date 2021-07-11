@@ -1,0 +1,39 @@
+.sort-group{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  // background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  height: 100vh;
+  .mask{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    // z-index: 2;
+    height: 100vh;
+  }
+  .sort-group-list{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #fff;
+    overflow: scroll;
+    padding-top: 10px;
+    .sort-group-content{
+      overflow-y: hidden;
+      position: absolute;
+      top: 0;
+      bottom: 44px;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+  }
+}

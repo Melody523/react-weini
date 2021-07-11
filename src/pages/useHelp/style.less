@@ -1,0 +1,86 @@
+//Intro.less
+.intro{
+  background-color: #f8f9fc;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  .intro-content{
+    overflow-y: hidden;
+    position: absolute;
+    top: 44px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    margin: 16px 19px;
+    padding: 0 16px 32px;
+    border-radius: 6px;
+    .h2{
+      font-size: 19px;
+      color: #000;
+      font-weight: normal;
+      height: 49px;
+      line-height: 49px;
+      border-bottom: 1px solid #ededed;
+      margin-bottom: 16px;
+      .icon{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+    }
+    .detail-box{
+      .h3{
+        font-size: 17px;
+        color: #333;
+        line-height: 26px;
+        font-weight: normal;
+        margin-top: 20px;
+      }
+      p{
+        font-size: 16px;
+        color: #808080;
+        line-height: 20px;
+        // text-indent: 2em;
+      }
+    }
+  }
+}
+
+//UseHelp.less
+.use-help{
+  background-color: #f8f9fc;
+  height: 100vh;
+  position: relative;
+  z-index: 2;
+  .use-help-content{
+    overflow-y: hidden;
+    position: absolute;
+    top: 44px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    .use-help-list{
+      margin: 13px 19px;
+      padding: 0 13px;
+      font-size: 16px;
+      color: #333;
+      background-color: #fff;
+      .use-help-item{
+        height: 48px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+        &:last-of-type{
+          border-bottom: 0 none;
+        }
+        .icon{
+          width: 6px;
+          height: 10px;
+        }
+      }
+    }
+  }
+}

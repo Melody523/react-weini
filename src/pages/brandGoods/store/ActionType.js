@@ -1,0 +1,9 @@
+export const GOODS_LIST = 'brandGoods/GOODS_LIST';
+export const GROUP_LIST = 'brandGoods/GROUP_LIST';
+export const SET_TITLE = 'brandGoods/SET_TITLE';
+export const SET_SORT_DATA = 'brandGoods/SET_SORT_DATA';
+export const SET_SHOW_SEARCH = 'brandGoods/SET_SHOW_SEARCH';
+export const SET_CURRENT_SORT = 'brandGoods/SET_CURRENT_SORT';
+export const SET_SORT_LIST = 'brandGoods/SET_SORT_LIST';
+export const SET_GOODS_LIST = 'brandGoods/SET_GOODS_LIST';
+export const SET_IS_SHOW = 'brandGoods/SET_IS_SHOW';
